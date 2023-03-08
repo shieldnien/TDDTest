@@ -48,6 +48,6 @@ public class MiTest {
     public void dividir(){
         Calc calc = new Calc(2,2);
         Integer result = calc.div();
-        Assertions.assertEquals(1, result);
+        Assertions.assertEquals((Integer)1, result);
     }
 }
